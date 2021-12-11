@@ -1,0 +1,133 @@
+
+header {
+    background-color: steelblue;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headshot {
+    border: lightcyan solid 3px;
+}
+
+header nav {
+    display: flex;
+    flex-grow: 2;
+}
+
+header nav ul {
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 45px;
+    color: pink;
+}
+
+header nav ul li {
+    display: inline-block
+}
+
+.format {
+    justify-content: center;
+}
+
+.hero div {
+    height: 250px;
+}
+
+.hero-image {
+    background-image: url("../pro-portfolio/assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero-image h3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    color: goldenrod;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+
+.aboutme {
+    background-color: indianred;
+    border: 5px solid;
+    border-radius: 9px;
+    height: 300px;
+    width: 75%;
+}
+
+.aboutme h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.experience {
+    background-color: coral;
+    border: 5px solid;
+    border-radius: 9px;
+    height: auto;
+    width: 75%;
+}
+
+.experience h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid green;
+}
+
+.projects article div {
+    justify-content: space-evenly;
+    border: 10px solid red;
+}
+.contact {
+    background-color: lemonchiffon;
+    border: 5px solid;
+    border-radius: 9px;
+    height: 300px;
+    width: 75%;
+}
+
+.contact h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.resume {
+    background-color: lightseagreen;
+    border: 5px solid;
+    border-radius: 9px;
+    height: 300px;
+    width: 75%;
+}
+
+.resume h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+footer h3 {
+    font-size: 30px;
+    background-color: steelblue;
+}
