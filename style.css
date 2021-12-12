@@ -4,6 +4,7 @@ header {
 }
 
 header h1 {
+    color: lavender;
     font-size: 45px;
     font-family: monospace;
     font-style: italic;
@@ -96,13 +97,13 @@ header nav ul li {
     font-size: 25px;
     display: flex;
     flex-wrap: wrap;
-    border: 10px solid green;
 }
 
 .projects article div {
     justify-content: space-evenly;
-    border: 10px solid red;
+    padding: 10px;
 }
+
 .contact {
     background-color: lemonchiffon;
     border: 5px solid;
@@ -132,4 +133,22 @@ header nav ul li {
 footer h3 {
     font-size: 30px;
     background-color: steelblue;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: fit-content; 
+    }
+    .experience {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        width: fit-content;
+    }
+    .experience {
+        width: auto;
+    }
 }
